@@ -1,0 +1,5 @@
+#%Module1.0
+
+module-whatis "EEGLAB - v12: an interactive Matlab toolbox for processing continuous and event-related EEG, MEG"
+
+setenv MATLABPATH /share/apps/EEGLAB/eeglab12_0_2_5b

@@ -1,0 +1,45 @@
+commandline = g09
+application = Gaussian
+applicationVersion = D.01
+hostCount = 1
+= Generic = 
+-
+[file1]
+type = InputFileParser
+size = 2000x70
+title = Gaussian input file
+setJobname = true
+setAsStdin = true
+-
+[appVersion]
+type = ApplicationVersionSelector
+size = 400x70
+title = Version
+[queueSel]
+type = QueueSelector
+title = SubmissionLocation
+size = 1000x70
+-
+[walltime]
+type = Walltime
+title = Walltime
+defaultAmount = 10
+defaultUnit = minutes
+size = 400x70
+[outfile]
+type = TextCombo
+title = Output filename
+size = 1000x70
+defaultValue = output.log
+fillWithDefaultValue = true
+property = stdout
+-
+[jobname]
+type = Jobname
+defaultValue = gaussian_job
+title = Jobname
+size = 2000x70
+-
+[email]
+type = Email
+size = 1500x100

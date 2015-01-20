@@ -1,0 +1,7 @@
+// required parameters
+
+commandline = OpenBUGS -h
+application = OpenBUGS
+applicationVersion = 3.2.2
+queue = pan:gram.uoa.nesi.org.nz
+walltime = 1m

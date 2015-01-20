@@ -1,0 +1,8 @@
+// required parameters
+// example from http://www.openbugs.info/Examples/Pumps.html
+
+commandline = OpenBUGS Pumps.txt
+application = OpenBUGS
+applicationVersion = 3.2.2
+submissionLocation = pan:gram.uoa.nesi.org.nz
+walltime = 10m

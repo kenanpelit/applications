@@ -1,0 +1,3 @@
+job = ../../jobs/requirement_sandybridge
+group = /nz/uoa/projects/uoa99999
+queue = pan:gram.uoa.nesi.org.nz

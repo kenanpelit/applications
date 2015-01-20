@@ -1,0 +1,16 @@
+#%Module1.0
+
+proc ModulesHelp { } {
+  puts stderr "MODEL build 52e7ad8 is the Mechanics of Defect Evolution Library. This module loads the library dependency (Eigen3 and Boost)"
+  puts stderr "TAGS: model"
+}
+
+module-whatis "MODEL build 52e7ad8 is the Mechanics of Defect Evolution Library. This module loads the library dependency (Eigen3 and Boost)"
+
+module load Eigen/3.2.1-ictce-5.4.0
+module load Boost/1.53.0-ictce-5.4.0
+
+set root     /share/libs/Model/noarch/52e7ad8
+prepend-path CPATH           $root
+prepend-path PATH            $root/scripts
+
